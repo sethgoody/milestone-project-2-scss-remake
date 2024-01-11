@@ -1,0 +1,10 @@
+@import 'variables';
+
+@function calculate-width($padding) {
+    @return $todo-width - ($padding * 2);
+  }
+  
+  @function darken-color($color, $amount) {
+    @return darken($color, $amount);
+  }
+  

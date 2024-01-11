@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import Modal from 'react-modal';
 import RegistrationForm from './RegistrationForm';
 import LoginForm from './LoginUser';
-
 import './LoginRegistration.css';
 
 Modal.setAppElement('#root'); // Set the root element for accessibility
